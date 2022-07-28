@@ -1,0 +1,87 @@
+  cricket.creating_match.resources - Embedded, ContainedInManifestFile, 
+  cricket.data.resources - Embedded, ContainedInManifestFile, 
+  cricket.login.resources - Embedded, ContainedInManifestFile, 
+  cricket.MyForm1.resources - Embedded, ContainedInManifestFile, 
+  cricket.homepage.resources - Embedded, ContainedInManifestFile, 
+  cricket.match_created.resources - Embedded, ContainedInManifestFile, 
+  cricket.team_details.resources - Embedded, ContainedInManifestFile, 
+  cricket.update_live_score.resources - Embedded, ContainedInManifestFile, 
+  cricket.update_score.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly cricket, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class cricket.MyForm1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String total_runs : Public
+    System.String total_wickets : Public
+    System.String last_ball : Public
+    System.String last_ball_runs : Public
+    System.String team1 : Public
+    System.String team2 : Public
+    System.String venue : Public
+Class cricket.update_live_score: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cricket.update_score: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cricket.match_created: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String team1 : Public
+    System.String team2 : Public
+    System.String venue : Public
+    System.ValueType datetime DateTime IsBoxed : Public
+Class cricket.data: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String team1 : Public
+    System.String team2 : Public
+    System.String match_id : Public
+    System.String toss_won : Public
+    System.String venue : Public
+    System.ValueType no_of_overs Int32 IsBoxed : Public
+    System.String name_of_player : Public
+    System.String player_index : Public
+    System.ValueType index Int32 IsBoxed : Public
+    System.ValueType no_of_runs_scored Int32 IsBoxed : Public
+    Int32 no_of_runs_given : Public
+    Int32 no_of_balls_delivered : Public
+    Int32 extras : Public
+    System.String no_of_balls_played : Public
+    Int32 no_of_wicket_taken : Public
+    Int32 extra : Public
+    System.ValueType total_runs Int32 IsBoxed : Public
+    System.String total_balls : Public
+    System.ValueType total_wickets Int32 IsBoxed : Public
+Class cricket.team_details: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String team1 : Public
+    System.String team2 : Public
+Class cricket.creating_match: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cricket.homepage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class cricket.login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
